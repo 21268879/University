@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LbjYkIh4EeW2JIfoHPa3NA" name="OOSDAssignment1">
+    <eAnnotations xmi:id="_LlG9MIh4EeW2JIfoHPa3NA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_LlG9MYh4EeW2JIfoHPa3NA" source="codegen">
+        <details xmi:id="_LlG9Moh4EeW2JIfoHPa3NA" key="codegenDirectory" value="/OOSDAssignment1/src"/>
+        <details xmi:id="_LtKtAIh4EeW2JIfoHPa3NA" key="AssociatedSourceCode" value="/OOSDAssignment1/src/Administrator.java;3654625334/1;/OOSDAssignment1/src/AdvertType.java;3846906328/1;/OOSDAssignment1/src/Client.java;1922355415/1;/OOSDAssignment1/src/Manager.java;2607581696/1;/OOSDAssignment1/src/Project.java;71221454/1;/OOSDAssignment1/src/Staff.java;2348045802/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_LqtO4Ih4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO4Yh4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO4oh4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO44h4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO5Ih4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO5Yh4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO5oh4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO54h4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_LqtO6Ih4EeW2JIfoHPa3NA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LqzVgIh4EeW2JIfoHPa3NA" name="Administrator">
+      <generalization xmi:id="_LrAJ0Ih4EeW2JIfoHPa3NA" general="_Lq4OAIh4EeW2JIfoHPa3NA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LqsAwIh4EeW2JIfoHPa3NA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_LqsAwYh4EeW2JIfoHPa3NA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_LrAJ0Yh4EeW2JIfoHPa3NA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_LrAw4Yh4EeW2JIfoHPa3NA" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LrBX8Yh4EeW2JIfoHPa3NA" name="Scanner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Lqsn0Ih4EeW2JIfoHPa3NA" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_LrBX84h4EeW2JIfoHPa3NA" name="ParseException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LrB_AIh4EeW2JIfoHPa3NA" name="SimpleDateFormat"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lqz8kIh4EeW2JIfoHPa3NA" name="AdvertType">
+      <ownedAttribute xmi:id="_LrEbQIh4EeW2JIfoHPa3NA" name="adTypeID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrEbQoh4EeW2JIfoHPa3NA" name="adTypeName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrEbRIh4EeW2JIfoHPa3NA" name="clientID" visibility="private" type="_LrAJ0Yh4EeW2JIfoHPa3NA" association="_LrJTwIh4EeW2JIfoHPa3NA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lq0joIh4EeW2JIfoHPa3NA" name="Client">
+      <ownedAttribute xmi:id="_LrFCUoh4EeW2JIfoHPa3NA" name="mainContact" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrFCVIh4EeW2JIfoHPa3NA" name="adTypes" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LrFCVYh4EeW2JIfoHPa3NA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrFpYoh4EeW2JIfoHPa3NA" name="clinetID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIssIh4EeW2JIfoHPa3NA" name="Client" specification="_Lq0joYh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIssYh4EeW2JIfoHPa3NA" name="clinetID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_LrIssoh4EeW2JIfoHPa3NA" type="_Lq0joIh4EeW2JIfoHPa3NA" direction="return"/>
+        <language>java</language>
+        <body>super();
+		this.clinetID = clinetID;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Lq0joYh4EeW2JIfoHPa3NA" name="Client" method="_LrIssIh4EeW2JIfoHPa3NA">
+        <eAnnotations xmi:id="_Lq1KsIh4EeW2JIfoHPa3NA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Lq1KsYh4EeW2JIfoHPa3NA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_Lq0jooh4EeW2JIfoHPa3NA" name="clinetID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Lq1Ksoh4EeW2JIfoHPa3NA" type="_Lq0joIh4EeW2JIfoHPa3NA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lq1Ks4h4EeW2JIfoHPa3NA" name="Manager">
+      <generalization xmi:id="_LrB_Aoh4EeW2JIfoHPa3NA" general="_Lq4OAIh4EeW2JIfoHPa3NA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIss4h4EeW2JIfoHPa3NA" name="main" specification="_Lq1xwIh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIstIh4EeW2JIfoHPa3NA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LrIstYh4EeW2JIfoHPa3NA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>ArrayList&lt;AdvertType> clientAds = new ArrayList&lt;>();	
+		Scanner sc = new Scanner(System.in);					
+								
+		
+		System.out.println(&quot;Enter the start date of the project(format MMM dd yyyy)&quot;);		
+		String stDate = sc.nextLine();								
+		
+		System.out.println(&quot;Please enter the end date of the project(format MMM dd yyyy)&quot;);		
+		String enDate = sc.nextLine();		
+
+		System.out.println(&quot;Please enter the name of the project manager.&quot;);		
+		String projectManager = sc.nextLine();		
+		
+	/*	Project newPr = new Project(clID, stDate, enDate, projectManager);    
+			String testDate = newPr.getStartDate();				
+			int testClID = newPr.getClientID();			*/
+		Project newPr = new Project(stDate, enDate, projectManager);
+			String testDate = newPr.getStartDate(); String testEndDate = newPr.getEndDate(); int testClID = newPr.getClientID(); String testManagernName = newPr.getProjectManager();
+		
+			System.out.println(&quot;TEST Project Start Date: &quot; + testDate + &quot;\nTEST Project End Date: &quot; + testEndDate + &quot;\nTEST ClientID: &quot; + testClID + &quot;\nTEST Project Manager Name: &quot; + testManagernName); 		
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIstoh4EeW2JIfoHPa3NA" name="calculateCosts" specification="_Lq1xw4h4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIst4h4EeW2JIfoHPa3NA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>double estimate = 0;		
+		return estimate;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Lq1xwIh4EeW2JIfoHPa3NA" name="main" isStatic="true" method="_LrIss4h4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_Lq1xwYh4EeW2JIfoHPa3NA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lq1xwoh4EeW2JIfoHPa3NA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lq1xw4h4EeW2JIfoHPa3NA" name="calculateCosts" isStatic="true" method="_LrIstoh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_Lq1xxIh4EeW2JIfoHPa3NA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lq2Y0Ih4EeW2JIfoHPa3NA" name="Project">
+      <ownedAttribute xmi:id="_LrFpZIh4EeW2JIfoHPa3NA" name="clientID" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrFpZYh4EeW2JIfoHPa3NA" name="projectID" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrFpZoh4EeW2JIfoHPa3NA" name="startDate" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LrGQcIh4EeW2JIfoHPa3NA" value="&quot;20th of November&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrGQcYh4EeW2JIfoHPa3NA" name="endDate" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LrGQcoh4EeW2JIfoHPa3NA" value="&quot;12th of December&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrGQc4h4EeW2JIfoHPa3NA" name="projectManager">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LrGQdIh4EeW2JIfoHPa3NA" value="&quot;Mr Fergus Hollway&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrGQdYh4EeW2JIfoHPa3NA" name="studioCost">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrG3gIh4EeW2JIfoHPa3NA" name="staffCost">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrG3gYh4EeW2JIfoHPa3NA" name="materialCost">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrG3goh4EeW2JIfoHPa3NA" name="spaceCost">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrG3g4h4EeW2JIfoHPa3NA" name="marketinngPromos" visibility="private" type="_LrAJ0Yh4EeW2JIfoHPa3NA" association="_LrJ60Yh4EeW2JIfoHPa3NA"/>
+      <ownedAttribute xmi:id="_LrHekoh4EeW2JIfoHPa3NA" name="numberOfAds" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIsuIh4EeW2JIfoHPa3NA" name="Project" specification="_Lq2_4Ih4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIsuYh4EeW2JIfoHPa3NA" name="stDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_LrIsuoh4EeW2JIfoHPa3NA" name="enDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_LrIsu4h4EeW2JIfoHPa3NA" name="mainStaff">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_LrIsvIh4EeW2JIfoHPa3NA" type="_Lq2Y0Ih4EeW2JIfoHPa3NA" direction="return"/>
+        <language>java</language>
+        <body>super();
+	this.clientID = (int)Math.floor(Math.random()*1000001);
+	this.projectID = (int)Math.floor(Math.random()*2000001);
+	this.startDate = stDate;
+	this.endDate = enDate;
+	this.projectManager = mainStaff;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIsvYh4EeW2JIfoHPa3NA" name="Project" specification="_Lq3m8Ih4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIsvoh4EeW2JIfoHPa3NA" type="_Lq2Y0Ih4EeW2JIfoHPa3NA" direction="return"/>
+        <language>java</language>
+        <body>Manager askManager = new Manager();
+		
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Lq2_4Ih4EeW2JIfoHPa3NA" name="Project" method="_LrIsuIh4EeW2JIfoHPa3NA">
+        <eAnnotations xmi:id="_Lq2_5Ih4EeW2JIfoHPa3NA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Lq2_5Yh4EeW2JIfoHPa3NA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_Lq2_4Yh4EeW2JIfoHPa3NA" name="stDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Lq2_4oh4EeW2JIfoHPa3NA" name="enDate">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Lq2_44h4EeW2JIfoHPa3NA" name="mainStaff">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Lq2_5oh4EeW2JIfoHPa3NA" type="_Lq2Y0Ih4EeW2JIfoHPa3NA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lq3m8Ih4EeW2JIfoHPa3NA" name="Project" method="_LrIsvYh4EeW2JIfoHPa3NA">
+        <eAnnotations xmi:id="_Lq3m8Yh4EeW2JIfoHPa3NA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_Lq3m8oh4EeW2JIfoHPa3NA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_Lq3m84h4EeW2JIfoHPa3NA" type="_Lq2Y0Ih4EeW2JIfoHPa3NA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Lq4OAIh4EeW2JIfoHPa3NA" name="Staff">
+      <ownedAttribute xmi:id="_LrHelIh4EeW2JIfoHPa3NA" name="staffName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrHelYh4EeW2JIfoHPa3NA" name="staffId">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrIFoIh4EeW2JIfoHPa3NA" name="hasProject">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LrIFoYh4EeW2JIfoHPa3NA" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrIFooh4EeW2JIfoHPa3NA" name="isMainContact" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_LrIFo4h4EeW2JIfoHPa3NA" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LrIFpYh4EeW2JIfoHPa3NA" name="projectID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIsv4h4EeW2JIfoHPa3NA" name="isMainContact" specification="_Lq41EIh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIswIh4EeW2JIfoHPa3NA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return isMainContact;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_LrIswYh4EeW2JIfoHPa3NA" name="setMainContact" specification="_Lq5cIIh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_LrIswoh4EeW2JIfoHPa3NA" name="isMainContact">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.isMainContact = isMainContact;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_Lq41EIh4EeW2JIfoHPa3NA" name="isMainContact" method="_LrIsv4h4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_Lq41EYh4EeW2JIfoHPa3NA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Lq5cIIh4EeW2JIfoHPa3NA" name="setMainContact" method="_LrIswYh4EeW2JIfoHPa3NA">
+        <ownedParameter xmi:id="_Lq5cIYh4EeW2JIfoHPa3NA" name="isMainContact">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LrJTwIh4EeW2JIfoHPa3NA" name="" memberEnd="_LrJTwYh4EeW2JIfoHPa3NA _LrEbRIh4EeW2JIfoHPa3NA">
+      <ownedEnd xmi:id="_LrJTwYh4EeW2JIfoHPa3NA" name="" type="_Lqz8kIh4EeW2JIfoHPa3NA" association="_LrJTwIh4EeW2JIfoHPa3NA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LrJ60Yh4EeW2JIfoHPa3NA" name="" memberEnd="_LrJ60oh4EeW2JIfoHPa3NA _LrG3g4h4EeW2JIfoHPa3NA">
+      <ownedEnd xmi:id="_LrJ60oh4EeW2JIfoHPa3NA" name="" type="_Lq2Y0Ih4EeW2JIfoHPa3NA" association="_LrJ60Yh4EeW2JIfoHPa3NA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_LlHkQIh4EeW2JIfoHPa3NA">
+      <eAnnotations xmi:id="_LlHkQYh4EeW2JIfoHPa3NA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_LlHkQoh4EeW2JIfoHPa3NA" base_Package="_LbjYkIh4EeW2JIfoHPa3NA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_LrAw4Ih4EeW2JIfoHPa3NA" base_Element="_LrAJ0Yh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrBX8Ih4EeW2JIfoHPa3NA" base_Element="_LrAw4Yh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrBX8oh4EeW2JIfoHPa3NA" base_Element="_LrBX8Yh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrBX9Ih4EeW2JIfoHPa3NA" base_Element="_LrBX84h4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrB_AYh4EeW2JIfoHPa3NA" base_Element="_LrB_AIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrEbQYh4EeW2JIfoHPa3NA" base_Element="_LrEbQIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrEbQ4h4EeW2JIfoHPa3NA" base_Element="_LrEbQoh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Generics xmi:id="_LrFCUIh4EeW2JIfoHPa3NA" genericsValue="String" base_Element="_LrEbRIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrFCUYh4EeW2JIfoHPa3NA" base_Element="_LrEbRIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrFCU4h4EeW2JIfoHPa3NA" base_Element="_LrFCUoh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Array xmi:id="_LrFpYIh4EeW2JIfoHPa3NA" dimensions="1" base_Element="_LrFCVIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrFpYYh4EeW2JIfoHPa3NA" base_Element="_LrFCVIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrFpY4h4EeW2JIfoHPa3NA" base_Element="_LrFpYoh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Generics xmi:id="_LrHekIh4EeW2JIfoHPa3NA" genericsValue="AdvertType" base_Element="_LrG3g4h4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrHekYh4EeW2JIfoHPa3NA" base_Element="_LrG3g4h4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrHek4h4EeW2JIfoHPa3NA" base_Element="_LrHekoh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrIFpIh4EeW2JIfoHPa3NA" base_Element="_LrIFooh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_LrIFpoh4EeW2JIfoHPa3NA" base_Element="_LrIFpYh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrJ60Ih4EeW2JIfoHPa3NA" base_Element="_LrJTwIh4EeW2JIfoHPa3NA"/>
+  <UMLLabProfile:Reference xmi:id="_LrJ604h4EeW2JIfoHPa3NA" base_Element="_LrJ60Yh4EeW2JIfoHPa3NA"/>
+</xmi:XMI>
